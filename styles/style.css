@@ -160,7 +160,7 @@ nav{
     border-radius: 8px;
     border-left: 8px solid var(--quaternary-color);
 }
-.announcement > div, .trending > div {
+.announcement > div , .trending> div{
     background-color: var(--tertiary-color);
     color: var(--quaternary-color);
     padding: 10px;
@@ -174,4 +174,14 @@ nav{
 }
 .announcement > div p, .trending > div p{
     font-size: 12px;
+}
+.tend-flex {
+    display: flex;
+    align-items: center;
+}
+.tend-flex h5{
+    margin: 0px;
+}
+.tend-flex p{
+    margin: 0px;
 }
